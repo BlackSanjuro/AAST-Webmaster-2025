@@ -1,0 +1,24 @@
+.h-10 {
+
+    height: 10svh;
+}
+
+.h-30 {
+
+    height: 30svh;
+}
+
+.outline-1 {
+
+    border: 1px solid red;
+}
+
+.outline-2 {
+
+    border: 1px solid blue;
+}
+
+.outline-3 {
+
+    border: 1px solid green;
+}
