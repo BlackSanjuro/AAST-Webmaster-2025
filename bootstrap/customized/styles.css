@@ -22,3 +22,11 @@
 
     border: 1px solid green;
 }
+
+
+.center {
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

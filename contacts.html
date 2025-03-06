@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="bootstrap/customized/main-min.css">
+    <link rel="stylesheet" href="bootstrap/customized/styles.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar bg-body-tertiary h-10 border-bottom border-2 border-info z-3 row">
+        
+        <!-- TITLE/ICON OF THE WEBSITE -->
+        <div class="col-4 d-flex align-items-center justify-content-start ps-5">
+          <a class="navbar-brand display-1 fs-1" href="#">Navbar</a>
+        </div>
+
+        <!-- OTHER NAV BAR LINKS -->
+        <div class="col-8 d-flex justify-content-evenly align-items-center fs-3 display-3">
+
+            <a class="nav-link" href="#">Menu</a>
+            <a class="nav-link" href="#">Processes</a>
+            <a class="nav-link fw-bolder" href="#">Contact</a>
+        </div>
+    </nav>
+
+    <!-- MAIN CONTENT AREA -->
+    <main class="container">
+
+        <!-- DYNAMIC CHANGING BIO FOR EACH PERSON -->
+       <div class="container-fluid outline-1 vh-100 row">
+
+            <!-- THE IMAGE AREA -->
+            <div class="col-5 outline-1">
+
+                <!-- THE CURRENT IMAGE CHOSEN -->
+                <div class="h-75 w-100 center">
+                    
+                    <img id="charmanderImg" class="h-75 img-thumbnail" src="media/img/charmander.png" alt="Bio Picture">
+                    <img id="pikachuImg" class="h-75 img-thumbnail d-none" src="media/img/pikachu.png" alt="Bio Picture">
+                    <img id="squirtleImg" class="h-75 img-thumbnail d-none" src="media/img/squirtle.png" alt="Bio Picture">
+
+                </div>
+
+                <!-- SELECTION AREA TO CHOOSE WHO'S BIO TO SEE -->
+                <div id="selector" class="h-25 w-100 outline-3 d-flex flex-wrap justify-content-evenly align-items-center">
+
+                    <!-- POPULATE WITH JAVASCRIPT -->
+                    
+                </div>
+            </div>
+
+            <div class="col-7 outline-2 py-4 px-3">
+                <!-- TITLE OF CURRENTLY SELECTED PERSON -->
+                <h1 id="selectedName" class="display-1">Charmander</h1>
+
+                <!-- BIO OF THE SELECTED PERSON -->
+                 <p id="selectedBio" class="fs-3" >uhhhh a fire type pokemon. </p>
+
+            </div>
+       </div>
+
+       <!-- CITATIONS AREA -->
+       <div class="container-fluid outline-2 vh-100">
+
+
+       </div>
+   </main>
+
+   <script src="src/bios.js"></script>
+</body>
+</html>
